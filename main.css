@@ -1,0 +1,60 @@
+@import url("./second.css");
+*{
+    margin: 0% auto;
+    padding: 0% auto;
+}
+nav{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    float: left;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li ul{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0px 10px 0px 10px;
+}
+nav ul li ul li{
+    gap: 10px;
+}
+nav ul li button{
+    border: 1px solid ;
+    color: aliceblue;
+    border-radius: 4px;
+    background-color: rgb(43, 119, 226);
+}
+#tweeticon{
+    border-radius: 15px;
+    text-align: center;
+}
+#iconstyle{
+    padding-left:5px;
+    padding-right: 5px;
+    background-color: rgb(55, 50, 50);
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#back{
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+#download{
+    border: 1px solid tomato;
+    border-radius: 5px;
+    background-color: tomato;
+    color: aliceblue;
+}
+.rightbar{
+    align-items: flex-end;
+}
